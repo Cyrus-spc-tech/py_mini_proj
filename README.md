@@ -8,4 +8,4 @@ Variety of Projects: Explore different projects covering topics like data analys
  
 Modular Architecture: Each project utilizes multiple Python modules, promoting best practices in code organization and reusability.
 
-Clear Documentation: Every project includes a README file with setup instructions, usage examples, and explanations of the code.
+
