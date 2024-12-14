@@ -3,7 +3,7 @@ import getpass
 from getpass import getpass as input
 
 #Printing the starting lines
-print("E P I C    🪨  📄 ✂️    B A T T L E ")
+print("Rock Paper Seasors Battel")
 print()
 print("Select your move (R, P or S)")
 print()
