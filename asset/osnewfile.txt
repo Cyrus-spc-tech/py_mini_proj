@@ -1,1 +1,3 @@
-Hi this is an os file system
+Hello this is the new line we have added 
+This is the second line we have added 
+This is the appended line in the file
