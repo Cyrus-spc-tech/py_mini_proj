@@ -1,10 +1,12 @@
 import pywhatkit as kit
 
 # Define the phone number and message
-phone_number = "+91 7006623705"  # Replace with the recipient's phone number
-message = "Hello, this is an automated message from Python!"
-hour = 13  # 24-hour format
-minute = 36  # The minute you want to send the message
+country_code=input("Enter Country Code: ")
+phone=int(input("Enter Phone Number: "))
+phone_number = str(country_code)+str(phone)
+message=input("Enter Message: ")
+hour=int(input("Enter Hour in 24 hour format: "))
+minute=int(input("Enter Minute: "))
 
 # Send the message
 kit.sendwhatmsg(phone_number, message, hour, minute)
