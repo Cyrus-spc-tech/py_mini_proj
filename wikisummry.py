@@ -16,6 +16,10 @@ while True:
             print("Please enter a positive integer.")
     except ValueError:
         print("Invalid input. Please enter a number.")
-        
-kt.info(src,lines=line)
-#kt.search(src)
+
+# Search the query on wiki with error handling
+try:
+    kt.info(src, line)
+    # kt.search(src) NOTE: this function help in searching on browser
+except Exception as e:
+    print(f"An error occurred: {e}. Please try a more specific search term.")
