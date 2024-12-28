@@ -23,3 +23,5 @@ try:
     # kt.search(src) NOTE: this function help in searching on browser
 except Exception as e:
     print(f"An error occurred: {e}. Please try a more specific search term.")
+#display exit msg
+print('\nThanks for using Wiki Summary Generator!')
