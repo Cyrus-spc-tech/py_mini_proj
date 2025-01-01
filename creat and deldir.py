@@ -10,6 +10,12 @@ new_dir = os.path.join(current_dir, "new_directory")
 os.mkdir(new_dir)
 print(f"Directory '{new_dir}' created successfully.")
 
+os.chdir(new_dir)
+print(f"Directory changed to '{new_dir}'.")
+text=os.path.join(new_dir, "text.md")
+f=open(text, "w")
+f.write("# Text File \n This is a text file created using Python os module .")
+
 # Delete the new directory
-os.rmdir(new_dir)
-print(f"Directory '{new_dir}' deleted successfully.")
+# os.rmdir(new_dir)
+# print(f"Directory '{new_dir}' deleted successfully.")
