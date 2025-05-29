@@ -5,7 +5,6 @@ markdown_text = """
 # This is a heading
 
 This is a paragraph with **bold** text and *italic* text.
-
 - Item 1
 - Item 2
 - Item 3
