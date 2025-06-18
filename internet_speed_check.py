@@ -1,10 +1,10 @@
 # Python program to test 
 # internet speed 
 
-import speedtest 
+import speedtest
 
 
-st = speedtest.Speedtest() 
+st = speedtest.Speedtest()
 
 option = int(input('''What speed do you want to test:\n
 1) Download Speed\n 
