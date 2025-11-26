@@ -1,6 +1,4 @@
 
-
-
 email = input("Enter email : ")
 k=0
 j=0
@@ -20,26 +18,26 @@ if len(email) >= 6:
                             j=1
                     elif i.isdigit():
                         continue
-                    elif i=="_" or i == "." or i=="@":
+                    elif i=="_" or i == "." or i="@":
                         continue
                     else :
                         d=1
 
-                if k ==1 or j==1 or d==1:
+                if k ==1 or j==1 or d=1:
                     print("wrong email")
 
             else :
                 print("wrong email")
 
-            print(f"You enter {email}")
+            pass
         else : 
             print("wronng format ")
 
-      
+        pass
 
     else:
         print("Wrong format")
 
 else :
     print("wrong email")
-    
+    print("wrong email")
